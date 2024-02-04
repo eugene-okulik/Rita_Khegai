@@ -18,7 +18,7 @@ deleted_items_list = list_.pop(1)
 
 # Раздел "Словарь"
 dict_ = my_dict['dict']
-dict_['i am a tuple'] = 'Super puper'
+dict_[('i am a tuple',)] = 'Super puper'
 deleted_items_dict = dict_.pop(3)
 
 # Раздел "Множество"
@@ -33,7 +33,7 @@ print('1) Последний элемент кортежа   ' + symbol_ + str(l
 print('2) В список добавлен элемент   ' + symbol_ + str(last_items_list) + symbol_)
 print('3) Из списка удален элемент   ' + symbol_ + str(deleted_items_list) + symbol_)
 
-print('4) В словарь добавлен элемент со значением   ' + symbol_ + str(dict_['i am a tuple']) + symbol_)
+print('4) В словарь добавлен элемент со значением   ' + symbol_ + str(dict_[('i am a tuple',)]) + symbol_)
 print('5) Из словаря удален элемент со значением  ' + symbol_ + str(deleted_items_dict) + symbol_)
 
 print(
