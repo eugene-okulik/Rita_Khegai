@@ -5,11 +5,7 @@
 # name, last_name, city, phone, country
 
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
-name = person[0]
-last_name = person[1]
-city = person[2]
-phone = person[3]
-country = person[4]
+name, last_name, city, phone, country = person
 person2 = f'Имя персоны: {name}, Фамилия: {last_name}, Страна/город проживания: {country}/{city}, Телефон: {phone}.'
 print('Задание 1')
 print(person2)
@@ -28,19 +24,19 @@ a = 'результат операции: 42'
 b = 'результат операции: 514'
 c = 'результат работы программы: 9'
 
-d = a.split()
-e = b.split()
-f = c.split()
+print('Задание 2')
+print(a.index('42'))
+print(b.index('514'))
+print(c.index('9'))
 
-d = d[2]
-e = e[2]
-f = f[3]
+d = (a[20:])
+e = (b[20:])
+f = (c[28:])
 
 d = int(d) + 10
 e = int(e) + 10
 f = int(f) + 10
 
-print('Задание 2')
 print(f'Результат сложения равен {d}')
 print(f'Результат сложения равен {e}')
 print(f'Результат сложения равен {f}')
