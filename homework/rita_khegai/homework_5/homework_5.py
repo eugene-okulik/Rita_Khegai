@@ -24,19 +24,19 @@ a = 'результат операции: 42'
 b = 'результат операции: 514'
 c = 'результат работы программы: 9'
 
-print('Задание 2')
-print(a.index('42'))
-print(b.index('514'))
-print(c.index('9'))
+a_index = a.index(':') + 2
+b_index = b.index(':') + 2
+c_index = c.index(':') + 2
 
-d = (a[20:])
-e = (b[20:])
-f = (c[28:])
+d = a[a_index:]
+e = b[b_index:]
+f = c[c_index:]
 
 d = int(d) + 10
 e = int(e) + 10
 f = int(f) + 10
 
+print('Задание 2')
 print(f'Результат сложения равен {d}')
 print(f'Результат сложения равен {e}')
 print(f'Результат сложения равен {f}')
