@@ -15,8 +15,10 @@ b1, b2 = b
 c1, c2 = c
 d1, d2 = d
 
+
 def print_key(key, value):
     print(key * value)
+
 
 print_key(a1, a2)
 print_key(b1, b2)

@@ -14,16 +14,20 @@ b = "результат операции: 54"
 c = "результат работы программы: 209"
 d = "результат: 2"
 
+
 def lists(string):
     return string.split()
+
 
 list_a = lists(a)
 list_b = lists(b)
 list_c = lists(c)
 list_d = lists(d)
 
+
 def numbers(number):
     print(int(number) + 10)
+
 
 numbers(list_a[2])
 numbers(list_b[2])
