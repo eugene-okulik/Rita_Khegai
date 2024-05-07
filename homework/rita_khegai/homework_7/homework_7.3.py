@@ -15,21 +15,27 @@ c = "результат работы программы: 209"
 d = "результат: 2"
 
 
-def lists(string):
-    return string.split()
+list_a = a.split()
+list_b = b.split()
+list_c = c.split()
+list_d = d.split()
 
 
-list_a = lists(a)
-list_b = lists(b)
-list_c = lists(c)
-list_d = lists(d)
+def last_value(string):
+    return string[-1]
 
 
-def numbers(number):
-    print(int(number) + 10)
+last_value_a = last_value(list_a)
+last_value_b = last_value(list_b)
+last_value_c = last_value(list_c)
+last_value_d = last_value(list_d)
 
 
-numbers(list_a[2])
-numbers(list_b[2])
-numbers(list_c[3])
-numbers(list_d[1])
+def result(last_value_int):
+    print(int(last_value_int) + 10)
+
+
+result(last_value_a)
+result(last_value_b)
+result(last_value_c)
+result(last_value_d)
