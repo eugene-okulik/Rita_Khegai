@@ -22,20 +22,10 @@ list_d = d.split()
 
 
 def last_value(string):
-    return string[-1]
+    return print(int(string[-1]) + 10)
 
 
-last_value_a = last_value(list_a)
-last_value_b = last_value(list_b)
-last_value_c = last_value(list_c)
-last_value_d = last_value(list_d)
-
-
-def result(last_value_int):
-    print(int(last_value_int) + 10)
-
-
-result(last_value_a)
-result(last_value_b)
-result(last_value_c)
-result(last_value_d)
+last_value(list_a)
+last_value(list_b)
+last_value(list_c)
+last_value(list_d)
