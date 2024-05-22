@@ -13,7 +13,7 @@ bonus = bool(random.getrandbits(1))
 random_num = random.randrange(2, 20)
 salary_bonus = salary * random_num
 
-if bonus == True:
+if bonus is True:
     print(str(salary) + ", " + str(bonus) + " - '$" + str(salary_bonus) + "'")
 else:
     print(str(salary) + ", " + str(bonus) + " - '$" + str(salary) + "'")
